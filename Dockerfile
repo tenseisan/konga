@@ -105,7 +105,7 @@ RUN apk add --no-cache libssl3=3.1.4-r5
 RUN apk add --no-cache libcrypto3=3.1.4-r5	
 RUN apk add --no-cache busybox=1.36.1-r15	
 RUN apk add --no-cache ssl_client=1.36.1-r15	
-RUN apk add --no-cache curl=8.5.0-r0	
+RUN apk add --no-cache curl
 RUN apk add --no-cache ca-certificates
 RUN apk add --no-cache bash 
 RUN apk add --no-cache git
